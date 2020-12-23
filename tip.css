@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.tip {
+    margin: 2rem 5rem;
+}
+div {
+    margin: 2rem;
+}
+.tip-header {
+  background-color: forestgreen;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 2rem;
+  font-size: large;
+  text-align: center;
+}
+.tip-body {
+  margin: auto;
+  width: 80%;
+  background-color: bisque;
+  /* padding-top: 2px; */
+}
+button {
+  padding: 1rem;
+  background-color: maroon;
+  margin-left: 10rem;
+  color: azure;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.tip-value {
+  margin-left: 13rem;
+}
+h2 {
+  font-size: 1.5rem;
+}

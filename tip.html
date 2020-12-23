@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tip.css">
+    <title>Rob's Tip Calculator</title>
+</head>
+<body>
+   <section class="tip">
+        <section class="tip-header">
+            <h1>
+                TIP CALCULATOR
+            </h1>
+        </section>
+        <section class="tip-body">
+            <div>
+                <h2>
+                    How much was your bill?
+                </h2>
+                <span>
+                    $
+                </span>
+                <span>
+                    <input type="text" , placeholder="Bill Amount", class="bill-value">
+                </span>
+            </div>
+            <div>
+                <h2>
+                    How was your service?
+                </h2>
+                <select class="service-value" name="" id="">
+                    <option value="">--Choose an Option--</option>
+                    <option value=".4">Very Good</option>
+                    <option value=".25">Good</option>
+                    <option value=".1">Average</option>
+                    <option value=".01">Bad</option>
+                    <option value="0">Very Bad</option>
+                </select>
+            </div>
+            <div>
+                <h2>
+                    How many people are sharing the bill?
+                </h2>
+                <span>
+                    <input class="people-value" type="text" , placeholder="Number of People">
+                </span>
+                <span>
+                    people
+                </span>
+            </div>
+            <button>
+                CALCULATE!
+            </button>
+            <div class="tip-value">
+
+            </div>
+        </section>
+   </section>
+   <script src="tip.js"></script>
+</body>
+
+</html>
